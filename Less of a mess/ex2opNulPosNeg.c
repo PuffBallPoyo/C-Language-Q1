@@ -14,5 +14,6 @@ void main(void) {
     
     if(op1 == 0 || op2 == 0) printf("Produit nul\n");
     else if (op1 < 0 || op2 < 0  ) printf("Produit negatif\n");
-    else printf("Produit positif\n");
+    else if (op1 > 0 || op2 > 0) printf("Produit positif\n");
 }
+/*Garder le produit positif pour la fin sinon ça ne fonctionne pas !*/
