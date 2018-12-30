@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
-    char charRead();
-    int sizeRead();
-    void printSquare(char dupe, int size);
+    char charRead();//Lit un caractère
+    int sizeRead();//Lit une taille en nombre entier
+    void printSquare(char dupe, int size);//Afficher un carré avec des motifs "dupe" et une taille "size" 
 
 void main(void) {
     char dupe = charRead();
@@ -19,7 +19,7 @@ char charRead(){
 int sizeRead(){
     int size;
     do {
-        printf("Type the size you want your square(higher than 2) to be :" );
+        printf("Type the size you want your square(higher than 2) to be : " );
         scanf("%d",&size);
     } while(size < 2);
     return size;

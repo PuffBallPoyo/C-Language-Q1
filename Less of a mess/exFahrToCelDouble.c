@@ -8,7 +8,7 @@ void main(void) {
     double fahr;
     double cel;
 
-    printf("Donne la température en fahrenheit\n");
+    printf("Donne la temperature en fahrenheit\n");
     scanf("%lf",&fahr);
 
     cel=(5.0/9.0*(fahr-32));

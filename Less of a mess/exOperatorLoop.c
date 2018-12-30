@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
+    /*Ce programme demande à l'utilisateur d'entrer un operateur arithmétique, tant qu'il n'a pas entré cet opérateur,
+    le programme ne se ferme pas*/
 
 void main(void) {
     char arh;

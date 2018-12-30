@@ -3,8 +3,11 @@
 #include <stdbool.h>
 #define size 6
     void caracteristiquesLues(char tabCarac[][15]);
-    void statLues(int tabStats[] , char tabCarac[][15]);
+    //Permet de rentrer un nombre "size" de caractéristiques
+    void statLues(int tabStats[] , char tabCarac[][15]); 
+    //Reçoit les caractéristiques rentrées et en demande les statistiques pour chacune
     void afficheStats(int tabStats[size] , char tabCarac[size][15]);
+    //Affiche les caractéristiques et statistiques reçues par les deux dernières fonctions
 
 void main(void) {
     int tabStats[size];

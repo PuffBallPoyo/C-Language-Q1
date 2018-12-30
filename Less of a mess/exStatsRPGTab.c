@@ -1,9 +1,9 @@
 #include <stdio.h>
 #define SIZE 6
+    void statLues(int tab5[SIZE] , char tabD[SIZE][15]);
+    //Demande à l'utilisateur de rentrer la stat pour chaque caractéristique
 
-void statLues(int tab5[SIZE] , char tabD[SIZE][15]);
-
-void main(void) {
+void main(void) { //Affiche les caratéristiques ainsi que ses stats 
     int statValue[SIZE];
     char statDesc[SIZE][15]= {"force","dexterite","constitution","intelligence","sagesse","charisme"};
     statLues(statValue,statDesc);
@@ -15,7 +15,7 @@ void main(void) {
 }
 void statLues(int tab5[SIZE] , char tabD[SIZE][15]) {
     for (int i = 0; i < SIZE; i++) {
-        printf("Stats:",tabD[i]);
+        printf("%s",tabD[i]);
         scanf("%d", &tab5[i]);
         getchar();
     }

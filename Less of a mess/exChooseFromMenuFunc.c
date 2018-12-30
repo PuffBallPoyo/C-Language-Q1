@@ -2,8 +2,8 @@
 #include <string.h>
 #include <stdbool.h>
     
-    void showMenu();
-    int chosenOption();
+    void showMenu(); //Displays a menu
+    int chosenOption(); //Reads the user choice 
 
 
 void main(void) {

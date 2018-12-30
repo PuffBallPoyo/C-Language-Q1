@@ -3,7 +3,9 @@
 #include <stdbool.h>
 
     double showDamage(double damage, double modifier);
+    //Affiche le produit des dégats et de son modificateur sans renvoie à la fonction main
     double showDamageToMain(double damage, double modifier);
+    //Calcule le produit des dégats et de son modificateur et les renvoie à la fonction main
 
 void main(void) {
     showDamage(100.0,0.5);

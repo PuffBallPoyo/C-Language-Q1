@@ -6,7 +6,7 @@
     /*a pour but d’obtenir et de garnir un tableau avec les 120 temps (MMSS en entier).
     Elle doit fournir le tableau garni au programme appelant.*/
     void afficherTemps(int tempsTab[size]);
-    /* a pour but d’afficher les temps des 120 participants repris dans le tableau
+    /*a pour but d’afficher les temps des 120 participants repris dans le tableau
     en entrée de la fonction sous le format suivant :
     No 1 : 45 minutes et 12 secondes */  
     int tempsRecord(int tempsTab[size]);

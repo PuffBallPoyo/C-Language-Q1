@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
-    double pow16(double p16);
+    double pow16(double p16); //Determine et renvoie la puissance de 16 selon un nombre donné en entrée de fonction
 
 void main(void) {
     double mainPow16 ;

@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
+//Ce programme permet la somme de x nombres grâce à une boucle
 
 void main(void) {
     int som = 0;
