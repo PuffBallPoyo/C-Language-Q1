@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdbool.h>
     
-    double productSign(double op1, double op2); //Returns a sign depending on the result given by the product of 2 numbers
+    char productSign(double op1, double op2); //Returns a sign depending on the result given by the product of 2 numbers
 
 void main(void) {
     char op = productSign (10,-2);
@@ -11,7 +11,7 @@ void main(void) {
     else if (op == '=') printf ("The product is equal to zero");
     else ("is this");
 }
-double productSign(double op1, double op2){
+char productSign(double op1, double op2){
     if(op1 == 0 || op2 == 0) return '0';
     else if (op1 < 0 || op2 < 0  ) return '-';
     else if (op1 > 0 || op2 > 0) return '+';
